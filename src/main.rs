@@ -2,8 +2,8 @@
 // mod block;
 // mod mresult;
 
-
 mod examples_enum;
+mod examples_box;
 
 fn main() {
     println!("About to call Example 1, yo...");
@@ -18,4 +18,7 @@ fn main() {
         Ok(buffer) => println!("read successfully! returned buffer: {:?}", buffer),
         Err(e) => eprintln!("Tenemos una problema!: {}", e)
     }
+
+    examples_box::example_1();
+    println!("dude: {:?}", examples_box::example_2());
 }
