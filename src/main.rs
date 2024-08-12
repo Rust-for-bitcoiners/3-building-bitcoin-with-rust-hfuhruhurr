@@ -1,10 +1,11 @@
 // mod linked_list;
 // mod block;
-// mod mresult;
+mod mresult;
 
 mod examples_enum;
 mod examples_box;
 mod examples_linked_list;
+
 
 fn main() {
     println!("About to call Example 1, yo...");
@@ -27,4 +28,5 @@ fn main() {
     examples_linked_list::example_2();
     examples_linked_list::example_3();
     examples_linked_list::example_4();
+
 }   
