@@ -1,11 +1,11 @@
-#[allow(dead_code)]
+#[allow(unused)]
 #[derive(Debug)]
 struct Node<T> {
     value: T,
     next: Option<Box<Node<T>>>,
 }
 
-#[allow(dead_code)]
+#[allow(unused)]
 #[derive(Debug)]
 struct LinkedList<T> {
     head: Option<Node<T>>,
