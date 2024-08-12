@@ -4,6 +4,7 @@
 
 mod examples_enum;
 mod examples_box;
+mod examples_linked_list;
 
 fn main() {
     println!("About to call Example 1, yo...");
@@ -21,4 +22,9 @@ fn main() {
 
     examples_box::example_1();
     println!("dude: {:?}", examples_box::example_2());
-}
+
+    examples_linked_list::example_1();
+    examples_linked_list::example_2();
+    examples_linked_list::example_3();
+    examples_linked_list::example_4();
+}   
